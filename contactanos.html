@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contáctanos</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no,
+    initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <header>
+
+      <input type="checkbox" id="btn-menu">
+      <label for="btn-menu"><img src="style/img/menu.png" alt="" /></label>
+      <nav class="menu">
+        <ul>
+          <li><a href="inicio.html">Inicio</a></li>
+          <li><a href="historia.html">Acerca de nosotros</a></li>s
+
+
+          <li><a href="productos.html">Nuestros Productos</a></li>
+          <li><a href="ofertas.html">Ofertas</a></li>
+          <li><a href="Contactanos.html">Contáctanos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <a id="fa" href="https://www.facebook.com"> <div class="Twitter"><img src="style/img/f.png" alt="Facebook" /></div></a>
+    <a id="twi" href="https://www.twitter.com"><div class="Facebook"><img src="style/img/t.png" alt="Twitter" /></div></a>
+
+
+    <div class="identidad">
+    <center>
+    <form  action="" method="post" onSubmit="return validar(this)" enctype="multipart/form-data" >
+      <h1 > Comunícate con nosotros D'Casa Honduras</h1>
+      <table id="t1">
+
+            <tr >
+            	<td>Nombre:</td>
+              <td>Apellido:</td>
+            <td>No. Identidad</td>
+            </tr>    	<tr>
+            	<td><input title="ejemplo: Ana "  type="text" pattern="[A-Za-z]{3,10}" name="nombre" required/></td>
+    			<td><input title="ejemplo: Flores, no utilices la tilde. " type="text" pattern="[A-Za-z]{3,10}" name="apellido" required/>
+    			</td><td><input title="Debe tener 13 digitos enteros ejemplo: 1504199500026" type="text" pattern="[0-9]{13,}"  name="cedula" required/></td>
+            </tr>
+        	<tr >
+            	 <td>Edad:</td><td>Sexo:</td> <td>Número de Teléfono</td>
+            </tr>
+        	<tr>
+            	<td><input title="Debe tener 1 digito al menos, ejemplo: 9" type="text" pattern="[0-9]{1,}" name="edad" id="edad" required/></td>
+    			<td><select title="Selecciona uno" name="sexo" sixe="1"  requiered>
+                				  <option value=0>Selecciona:</option>
+                                  <option value="Masculino">Masculino</option>
+          						  <option value="Femenino">Femenino</option>
+                                  </select>
+                </td><td><input  title="Debe tener 8 digitos Ejemplo: 98496067" type="number" pattern="{8}" name="celular" required/></td>
+            </tr>
+            <tr>
+            	<td>Email:</td><td>Confirma el email:</td>
+            </tr>
+            <tr><td><input  title=" Ejemplo: wyff2011@hotmail.com" type="email" name="email"  required/></td>
+    		<td><input  title=" Ejemplo: wyff2011@hotmail.com" type="email" name="confemail"  required/></td>
+    		</tr>
+        </table>
+        <center>
+        <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Escribe Aquí..
+        su Comentarios."></textarea>  </center>
+      </t>
+        <tr>
+    			<td><input type="submit" name="Enviar" value="Enviar"/></td>
+            </tr>
+
+
+    <p>
+       Desarrollando y Fortaleciendo Marcas Que Hacen Tradición.
+    </p>
+    </div>
+    <footer>
+
+      <a href="https://www.facebook.com/DCasa">
+        ⒸCopyright all rights reserved 2016.
+      </a>
+    </footer>
+    <script src="dcasa.js" charset="utf-8"></script>
+  </body>
+</html>
